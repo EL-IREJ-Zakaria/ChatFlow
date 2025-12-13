@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "304060062712",
+    "firebase_url": "https://chatflow-1733e-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "chatflow-1733e",
+    "storage_bucket": "chatflow-1733e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304060062712:android:cb7bc3d03d0b498e57d40d",
+        "android_client_info": {
+          "package_name": "com.akgarg.whatsappuiclone.activities"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC-Ng3eTFK1JtoG3NAXwK3415PFldahXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304060062712:android:c736769992b5cf1c57d40d",
+        "android_client_info": {
+          "package_name": "com.mindorks.sample.whatsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC-Ng3eTFK1JtoG3NAXwK3415PFldahXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304060062712:android:58cb975647d3d2a957d40d",
+        "android_client_info": {
+          "package_name": "com.ofppt.chatflow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC-Ng3eTFK1JtoG3NAXwK3415PFldahXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
