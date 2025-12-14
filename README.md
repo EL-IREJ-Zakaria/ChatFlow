@@ -1,6 +1,6 @@
 # WhatsApp Clone - Jetpack Compose
 
-Bienvenue dans le projet **WhatsApp Clone**. Ce projet est une démonstration d'une application de messagerie instantanée moderne construite entièrement avec **Jetpack Compose** et **Kotlin**, utilisant **Firebase** comme backend.
+Bienvenue dans le projet **CatFlow**. Ce projet est une démonstration d'une application de messagerie instantanée moderne construite entièrement avec **Jetpack Compose** et **Kotlin**, utilisant **Firebase** comme backend.
 
 ## 📱 Fonctionnalités
 
