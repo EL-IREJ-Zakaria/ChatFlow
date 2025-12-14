@@ -1,64 +1,87 @@
-<img src=https://github.com/MindorksOpenSource/Jetpack-Compose-WhatsApp-Clone/blob/master/art/whatsapp-clone.jpg>
+# WhatsApp Clone - Jetpack Compose
 
-# Jetpack-Compose-WhatsApp-Clone - Learn Jetpack Compose by building WhatsApp Clone
+Bienvenue dans le projet **WhatsApp Clone**. Ce projet est une démonstration d'une application de messagerie instantanée moderne construite entièrement avec **Jetpack Compose** et **Kotlin**, utilisant **Firebase** comme backend.
 
-[![MindOrks](https://img.shields.io/badge/mindorks-opensource-blue.svg)](https://mindorks.com/open-source-projects)
-[![MindOrks Community](https://img.shields.io/badge/join-community-blue.svg)](https://mindorks.com/join-community)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://opensource.org/licenses/Apache-2.0)
+## 📱 Fonctionnalités
 
-## About this project (Jetpack Compose WhatsApp Clone):
-* If you want to get started with Jetpack Compose, then this project is for you.
-* Common use-cases of Jetpack Compose has been implemented in this project like working with List, Using Coroutines, etc.
-* Also, learn to work with multiple screens in Jetpack Compose.
-* We are using `1.0.0-alpha01` version of Jetpack Compose to design WhatsApp Clone, we will keep it updating based on the new releases.
+*   **Authentification** : Connexion via Google et vérification par téléphone (Firebase Auth).
+*   **Messagerie en temps réel** : Envoi et réception de messages instantanés avec Firebase Firestore.
+*   **Interface Utilisateur Moderne** : UI déclarative construite avec Jetpack Compose.
+*   **Navigation** : Utilisation de Navigation Component pour la gestion des écrans.
+*   **Gestion d'état** : Architecture MVVM avec ViewModel et State/LiveData.
+*   **Médias** : Chargement d'images de profil et partages de photos (Firebase Storage + Glide).
+*   **Statuts et Appels** : (En cours de développement) Interface pour les onglets Statut et Appels.
 
-## Steps to learn Jetpack Compose from this project
-* First, learn the concepts of Jetpack Compose from this **[blog.](https://blog.mindorks.com/using-jetpack-compose-to-build-ui-in-android)**
-* Learn Jetpack Compose for Android by Examples from this **[project.](https://github.com/MindorksOpenSource/Jetpack-Compose-Android-Examples)**
-* Then, just clone, build, run the project and start learning Jetpack Compose by building WhatsApp.
+## 🛠 Stack Technique
 
-## This Jetpack Compose WhatsApp Clone Project will help you in learning the following for Android App Development:
-* How to build WhatsApp using Jetpack Compose?
-* How to build a multiple screen app using Compose?
-* How to work with Lists?
-* How to work with Tabs?
-* How to build TopAppBar and work with different Containers?
-* How to load images from Drawable and Url?
-* How to work with Coroutines in Compose?
-* How to manage state in Jetpack Compose?
-* How to write test cases in Jetpack Compose?
-* How to work with LiveData in Jetpack Compose?
+*   **Langage** : [Kotlin](https://kotlinlang.org/)
+*   **UI Toolkit** : [Jetpack Compose](https://developer.android.com/jetpack/compose)
+*   **Architecture** : MVVM (Model-View-ViewModel)
+*   **Backend** :
+    *   [Firebase Authentication](https://firebase.google.com/docs/auth) (Google Sign-In)
+    *   [Firebase Firestore](https://firebase.google.com/docs/firestore) (Base de données NoSQL)
+    *   [Firebase Storage](https://firebase.google.com/docs/storage) (Stockage de fichiers)
+*   **Asynchrone** : [Coroutines](https://kotlinlang.org/docs/coroutines-overview.html) & Flow
+*   **Navigation** : [Jetpack Navigation](https://developer.android.com/guide/navigation)
+*   **Chargement d'images** : [Glide](https://github.com/bumptech/glide)
 
-## References useful during learning the Jetpack Compose for Android from this project
-* [Using Jetpack Compose to build UI in Android](https://blog.mindorks.com/using-jetpack-compose-to-build-ui-in-android)
-* [Using Constraint Layout in Jetpack Compose](https://blog.mindorks.com/constraint-layout-in-jetpack-compose)
-* [State Management in Jetpack Compose](https://blog.mindorks.com/state-management-in-jetpack-compose)
+## 🚀 Installation et Configuration
 
-## Explore Android Online Tutorials and Courses To Learn More by MindOrks
-* [Ride-Sharing Uber Lyft Android App](https://github.com/MindorksOpenSource/ridesharing-uber-lyft-app) - Learn to build a ride-sharing Android Taxi Clone App like Uber, Lyft - Open-Source Project By MindOrks
-* [Android Tutorial](https://mindorks.com/android-tutorial) - All Free Android Tutorials by MindOrks
-* [Android Online Course for Professionals](https://bootcamp.mindorks.com) - In this online course, you’ll learn the Dagger, Kotlin, RxJava, MVVM Architecture, Architecture Components, Jetpack, LiveData, ViewModel, Room Database, Database Design, Multithreading, Memory Management, Networking, Caching, How Glide works, Unit Testing, and the best practices for Android Development. By the end of this online course, you will have all the skills you need to become a professional Android Developer.
-* [Android Online Course for Beginners](https://bootcamp.mindorks.com/android-training-for-beginners) - This course is for beginners for those who want to get started with Android Development. In this course, you will build two apps: TodoNotes and Ride-Sharing Uber Android App.
+Pour exécuter ce projet localement, suivez ces étapes :
 
-## If this project helps you in anyway, show your love :heart: by putting a :star: on this project :v:
+### Prérequis
+*   Android Studio (Dernière version stable recommandée)
+*   Compte Firebase
 
-[Check out MindOrks awesome open source projects here](https://mindorks.com/open-source-projects)
+### Étapes
 
-### License
+1.  **Cloner le dépôt**
+    ```bash
+    git clone https://github.com/votre-nom/whatsapp-clone.git
+    cd whatsapp-clone
+    ```
+
+2.  **Configuration Firebase**
+    *   Créez un nouveau projet sur la [Console Firebase](https://console.firebase.google.com/).
+    *   Activez **Authentication** (Google Sign-In).
+    *   Activez **Cloud Firestore** et **Storage**.
+    *   Téléchargez le fichier `google-services.json` depuis les paramètres de votre projet Firebase.
+    *   Placez le fichier `google-services.json` dans le dossier `app/` du projet.
+
+3.  **Ouvrir dans Android Studio**
+    *   Ouvrez le projet et laissez Gradle se synchroniser.
+
+4.  **Exécuter**
+    *   Connectez un appareil Android ou lancez un émulateur.
+    *   Appuyez sur le bouton **Run**.
+
+## 📂 Structure du Projet
+
+```text
+com.mindorks.sample.whatsapp
+├── data             # Modèles de données et repositories
+├── screen           # Écrans de l'interface utilisateur (Auth, Chat, Main, etc.)
+│   ├── auth         # Écrans d'authentification et configuration de profil
+│   ├── chat         # Liste des discussions et écran de chat
+│   ├── main         # Écran principal (Tabs, AppBar)
+│   ├── settings     # Paramètres de l'application
+│   └── splash       # Écran de démarrage
+├── utils            # Classes utilitaires et extensions
+└── MainActivity.kt  # Point d'entrée de l'application
 ```
-   Copyright (C) 2020 MINDORKS NEXTGEN PRIVATE LIMITED
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
+## 🤝 Contribuer
 
-       http://www.apache.org/licenses/LICENSE-2.0
+Les contributions sont les bienvenues ! Si vous souhaitez améliorer ce projet :
+1.  Forkez le projet.
+2.  Créez votre branche de fonctionnalité (`git checkout -b feature/AmazingFeature`).
+3.  Commitez vos changements (`git commit -m 'Add some AmazingFeature'`).
+4.  Pushez vers la branche (`git push origin feature/AmazingFeature`).
+5.  Ouvrez une Pull Request.
 
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and limitations under the License.
-```
+## 📄 Licence
 
-### Contributing to Jetpack Compose WhatsApp Clone
-Just make a pull request. You are in!
+Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+
+---
+*Ce projet est à des fins éducatives pour l'apprentissage de Jetpack Compose.*
