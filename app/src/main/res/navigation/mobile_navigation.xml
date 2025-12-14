@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.mindorks.sample.whatsapp.screen.splash.SplashFragment"
+        android:name="com.ofppt.chatflow.screen.splash.SplashFragment"
         android:label="SplashFragment">
 
         <action
@@ -25,7 +25,7 @@
     
     <fragment
         android:id="@+id/onboardingFragment"
-        android:name="com.mindorks.sample.whatsapp.screen.onboarding.OnboardingFragment"
+        android:name="com.ofppt.chatflow.screen.onboarding.OnboardingFragment"
         android:label="OnboardingFragment">
 
         <action
@@ -38,7 +38,7 @@
 
     <fragment
         android:id="@+id/authFragment"
-        android:name="com.mindorks.sample.whatsapp.screen.auth.AuthFragment"
+        android:name="com.ofppt.chatflow.screen.auth.AuthFragment"
         android:label="AuthFragment">
 
         <action
@@ -51,7 +51,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.mindorks.sample.whatsapp.screen.main.MainFragment" 
+        android:name="com.ofppt.chatflow.screen.main.MainFragment" 
         android:label="MainFragment">
 
         <action
@@ -77,24 +77,11 @@
             android:id="@+id/action_mainFragment_to_settingsFragment"
             app:destination="@id/settingsFragment" />
 
-        <action
-            android:id="@+id/action_mainFragment_to_contactsFragment"
-            app:destination="@id/contactsFragment" />
-
-    </fragment>
-    
-    <fragment
-        android:id="@+id/contactsFragment"
-        android:name="com.mindorks.sample.whatsapp.screen.main.view.contacts.ContactsView"
-        android:label="ContactsFragment">
-        <action 
-            android:id="@+id/action_contactsFragment_to_chatFragment"
-            app:destination="@id/chatFragment"/>
     </fragment>
 
     <fragment
         android:id="@+id/chatFragment"
-        android:name="com.mindorks.sample.whatsapp.screen.chat.ChatFragment"
+        android:name="com.ofppt.chatflow.screen.chat.ChatFragment"
         android:label="fragment_chat">
             <argument
                 android:name="userName"
@@ -107,8 +94,8 @@
 
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.mindorks.sample.whatsapp.screen.settings.SettingsFragment"
-        android.label="SettingsFragment">
+        android:name="com.ofppt.chatflow.screen.settings.SettingsFragment"
+        android:label="SettingsFragment">
         
         <action
             android:id="@+id/action_settingsFragment_to_authFragment"

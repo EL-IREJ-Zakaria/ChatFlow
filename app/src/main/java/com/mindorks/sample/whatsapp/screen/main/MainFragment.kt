@@ -23,6 +23,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.ofppt.chatflow.R
+import com.ofppt.chatflow.screen.main.MainFragmentDirections
 import com.ofppt.chatflow.screen.main.view.MainViewModel
 import com.ofppt.chatflow.screen.main.view.ScreenState
 import com.ofppt.chatflow.screen.main.view.TabsPanel
@@ -41,13 +42,13 @@ class MainFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         return ComposeView(requireContext()).apply {
-
             setContent {
                 WhatsAppTheme {
-                    onScreenSelected {
-                        viewModel.navigateTo(it)
+                    // J'ai renommé la fonction pour respecter les conventions (Majuscule)
+                    MainScreenContent { screen ->
+                        viewModel.navigateTo(screen)
                     }
                 }
             }
@@ -55,10 +56,11 @@ class MainFragment : Fragment() {
     }
 
     @Composable
-    private fun onScreenSelected(onNavigate: (ScreenState.Screen) -> Unit) {
+    private fun MainScreenContent(onNavigate: (ScreenState.Screen) -> Unit) {
 
-        val screenState: State<ScreenState?> =
-            viewModel.screenState.observeAsState(viewModel.screenState.value)
+        // Utilisation de 'by' pour simplifier l'accès à la valeur (optionnel mais plus propre)
+        val screenState = viewModel.screenState.observeAsState(viewModel.screenState.value)
+        val currentScreenState = screenState.value // Pour éviter les accès null safety répétitifs
 
         Column {
             TopAppBar(
@@ -73,18 +75,22 @@ class MainFragment : Fragment() {
                         modifier = Modifier
                             .padding(end = 16.dp)
                             .clickable {
+                                // Navigation simple via ID
                                 findNavController().navigate(R.id.action_mainFragment_to_authFragment)
                             }
                     )
                 }
             )
-            screenState.value?.let { TabsPanel(it, onNavigate) }
-            Surface {
-                when (screenState.value?.state) {
 
+            // Affichage des onglets
+            currentScreenState?.let { TabsPanel(it, onNavigate) }
+
+            Surface {
+                when (currentScreenState?.state) {
                     ScreenState.Screen.CALLS -> CallsView()
 
                     ScreenState.Screen.CHATS -> ChatsView { chat ->
+                        // ICI : On utilise la classe générée automatiquement par Safe Args
                         val action = MainFragmentDirections.actionMainFragmentToChatFragment(
                             userName = chat.name,
                             userImage = chat.url
@@ -102,7 +108,7 @@ class MainFragment : Fragment() {
 
                     ScreenState.Screen.STATUS -> StatusView()
 
-                    else -> {} // Should not happen
+                    null -> {}
                 }
             }
         }
