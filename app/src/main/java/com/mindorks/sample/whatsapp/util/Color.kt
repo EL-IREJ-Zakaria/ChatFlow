@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.util
+package com.ofppt.chatflow.util
 
 import androidx.compose.ui.graphics.Color
 

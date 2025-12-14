@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.screen.splash
+package com.ofppt.chatflow.screen.splash
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -12,7 +12,7 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.vectorResource
-import com.mindorks.sample.whatsapp.R
+import com.ofppt.chatflow.R
 import kotlinx.coroutines.delay
 
 private const val DELAY: Long = 2000

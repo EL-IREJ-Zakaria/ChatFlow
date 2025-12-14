@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.screen.onboarding
+package com.ofppt.chatflow.screen.onboarding
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -27,8 +27,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
-import com.mindorks.sample.whatsapp.R
-import com.mindorks.sample.whatsapp.ui.WhatsAppTheme
+import com.ofppt.chatflow.R
+import com.ofppt.chatflow.ui.WhatsAppTheme
 
 class OnboardingFragment : Fragment() {
 

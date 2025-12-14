@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp
+package com.ofppt.chatflow
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -9,5 +9,3 @@ class WhatsAppActivity : AppCompatActivity() {
         setContentView(R.layout.activity_whatsapp)
     }
 }
-
-

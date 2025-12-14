@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.screen.main.view.call
+package com.ofppt.chatflow.screen.main.view.call
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
@@ -20,9 +20,9 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.mindorks.sample.whatsapp.R
-import com.mindorks.sample.whatsapp.data.model.Call
-import com.mindorks.sample.whatsapp.util.ImageLoader
+import com.ofppt.chatflow.R
+import com.ofppt.chatflow.data.model.Call
+import com.ofppt.chatflow.util.ImageLoader
 
 @Composable
 fun CallItemView(call: Call) {

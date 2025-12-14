@@ -1,10 +1,10 @@
-package com.mindorks.sample.whatsapp.data.local
+package com.ofppt.chatflow.data.local
 
-import com.mindorks.sample.whatsapp.R
-import com.mindorks.sample.whatsapp.data.model.Call
-import com.mindorks.sample.whatsapp.data.model.Chat
-import com.mindorks.sample.whatsapp.data.model.Conversation
-import com.mindorks.sample.whatsapp.data.model.Status
+import com.ofppt.chatflow.R
+import com.ofppt.chatflow.data.model.Call
+import com.ofppt.chatflow.data.model.Chat
+import com.ofppt.chatflow.data.model.Conversation
+import com.ofppt.chatflow.data.model.Status
 
 val calls = mutableListOf<Call>().apply {
     add(

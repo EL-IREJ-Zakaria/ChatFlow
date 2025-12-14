@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.screen.main.view
+package com.ofppt.chatflow.screen.main.view
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

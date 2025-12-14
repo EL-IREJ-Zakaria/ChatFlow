@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.screen.auth
+package com.ofppt.chatflow.screen.auth
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*

@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.data.model
+package com.ofppt.chatflow.data.model
 
 data class User(
     val id: String = "",

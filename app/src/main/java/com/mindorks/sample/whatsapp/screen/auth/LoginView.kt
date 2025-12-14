@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.screen.auth
+package com.ofppt.chatflow.screen.auth
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
@@ -17,7 +17,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.mindorks.sample.whatsapp.R
+import com.ofppt.chatflow.R
 
 @Composable
 fun LoginView(

@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.screen.settings
+package com.ofppt.chatflow.screen.settings
 
 import android.net.Uri
 import android.os.Bundle
@@ -58,10 +58,10 @@ import com.google.firebase.ktx.Firebase
 import com.google.firebase.storage.StorageTask
 import com.google.firebase.storage.UploadTask
 import com.google.firebase.storage.ktx.storage
-import com.mindorks.sample.whatsapp.R
-import com.mindorks.sample.whatsapp.ui.WhatsAppTheme
-import com.mindorks.sample.whatsapp.util.ImageLoader
-import com.mindorks.sample.whatsapp.util.colorTopBar
+import com.ofppt.chatflow.R
+import com.ofppt.chatflow.ui.WhatsAppTheme
+import com.ofppt.chatflow.util.ImageLoader
+import com.ofppt.chatflow.util.colorTopBar
 import java.util.UUID
 
 class SettingsFragment : Fragment() {

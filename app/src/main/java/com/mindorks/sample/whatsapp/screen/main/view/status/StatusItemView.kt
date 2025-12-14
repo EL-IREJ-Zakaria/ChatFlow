@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.screen.main.view.status
+package com.ofppt.chatflow.screen.main.view.status
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
@@ -14,8 +14,8 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.mindorks.sample.whatsapp.data.model.Status
-import com.mindorks.sample.whatsapp.util.ImageLoader
+import com.ofppt.chatflow.data.model.Status
+import com.ofppt.chatflow.util.ImageLoader
 
 @Composable
 fun StatusItemView(status: Status) {

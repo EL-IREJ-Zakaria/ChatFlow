@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.ui
+package com.ofppt.chatflow.ui
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

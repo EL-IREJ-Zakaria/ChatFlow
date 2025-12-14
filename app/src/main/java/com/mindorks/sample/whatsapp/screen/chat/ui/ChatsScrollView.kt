@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.screen.chat.ui
+package com.ofppt.chatflow.screen.chat.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -22,7 +22,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
-import com.mindorks.sample.whatsapp.data.model.Message
+import com.ofppt.chatflow.data.model.Message
 import java.text.SimpleDateFormat
 import java.util.*
 

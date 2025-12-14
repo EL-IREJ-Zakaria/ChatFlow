@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.util
+package com.ofppt.chatflow.util
 
 import android.graphics.Bitmap
 import android.graphics.drawable.Drawable
@@ -13,7 +13,7 @@ import androidx.compose.ui.platform.LocalContext
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.target.CustomTarget
 import com.bumptech.glide.request.transition.Transition
-import com.mindorks.sample.whatsapp.R
+import com.ofppt.chatflow.R
 
 @Composable
 fun ImageLoader(imageUrl: String, modifier: Modifier = Modifier) {

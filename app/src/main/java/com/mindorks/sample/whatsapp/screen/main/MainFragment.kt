@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.screen.main
+package com.ofppt.chatflow.screen.main
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -22,16 +22,16 @@ import androidx.compose.ui.unit.dp
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
-import com.mindorks.sample.whatsapp.R
-import com.mindorks.sample.whatsapp.screen.main.view.MainViewModel
-import com.mindorks.sample.whatsapp.screen.main.view.ScreenState
-import com.mindorks.sample.whatsapp.screen.main.view.TabsPanel
-import com.mindorks.sample.whatsapp.screen.main.view.call.CallsView
-import com.mindorks.sample.whatsapp.screen.main.view.chats.ChatsView
-import com.mindorks.sample.whatsapp.screen.main.view.contacts.ContactsView
-import com.mindorks.sample.whatsapp.screen.main.view.status.StatusView
-import com.mindorks.sample.whatsapp.ui.WhatsAppTheme
-import com.mindorks.sample.whatsapp.util.colorTopBar
+import com.ofppt.chatflow.R
+import com.ofppt.chatflow.screen.main.view.MainViewModel
+import com.ofppt.chatflow.screen.main.view.ScreenState
+import com.ofppt.chatflow.screen.main.view.TabsPanel
+import com.ofppt.chatflow.screen.main.view.call.CallsView
+import com.ofppt.chatflow.screen.main.view.chats.ChatsView
+import com.ofppt.chatflow.screen.main.view.contacts.ContactsView
+import com.ofppt.chatflow.screen.main.view.status.StatusView
+import com.ofppt.chatflow.ui.WhatsAppTheme
+import com.ofppt.chatflow.util.colorTopBar
 
 class MainFragment : Fragment() {
 

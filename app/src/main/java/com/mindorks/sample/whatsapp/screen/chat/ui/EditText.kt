@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.screen.chat.ui
+package com.ofppt.chatflow.screen.chat.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -22,7 +22,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.mindorks.sample.whatsapp.util.colorTopBar
+import com.ofppt.chatflow.util.colorTopBar
 
 @Composable
 fun EditText(onMessageSend: (String) -> Unit) {

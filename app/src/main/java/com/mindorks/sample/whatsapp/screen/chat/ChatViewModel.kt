@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.screen.chat
+package com.ofppt.chatflow.screen.chat
 
 import android.net.Uri
 import androidx.lifecycle.ViewModel
@@ -10,7 +10,7 @@ import com.google.firebase.firestore.ListenerRegistration
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import com.google.firebase.storage.ktx.storage
-import com.mindorks.sample.whatsapp.data.model.Message
+import com.ofppt.chatflow.data.model.Message
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch

@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.data.model
+package com.ofppt.chatflow.data.model
 
 import com.google.firebase.Timestamp
 

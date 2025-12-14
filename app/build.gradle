@@ -11,7 +11,7 @@ android {
     buildToolsVersion "34.0.0"
 
     defaultConfig {
-        applicationId "com.mindorks.sample.whatsapp"
+        applicationId "com.ofppt.chatflow"
         minSdkVersion 24
         targetSdkVersion 34
         versionCode 1
@@ -39,7 +39,7 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion compose_version
     }
-    namespace 'com.mindorks.sample.whatsapp'
+    namespace 'com.ofppt.chatflow'
 }
 
 dependencies {

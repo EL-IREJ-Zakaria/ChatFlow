@@ -1,7 +1,6 @@
-package com.mindorks.sample.whatsapp
+package com.ofppt.chatflow
 
 import org.junit.Test
-
 import org.junit.Assert.*
 
 /**

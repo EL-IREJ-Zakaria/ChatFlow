@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.screen.chat.ui
+package com.ofppt.chatflow.screen.chat.ui
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.Box
@@ -9,9 +9,9 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.mindorks.sample.whatsapp.data.model.User
-import com.mindorks.sample.whatsapp.screen.chat.ChatViewModel
-import com.mindorks.sample.whatsapp.screen.chat.ChatViewModelFactory
+import com.ofppt.chatflow.data.model.User
+import com.ofppt.chatflow.screen.chat.ChatViewModel
+import com.ofppt.chatflow.screen.chat.ChatViewModelFactory
 
 @ExperimentalFoundationApi
 @Composable

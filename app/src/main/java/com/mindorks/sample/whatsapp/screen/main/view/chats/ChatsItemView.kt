@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.screen.main.view.chats
+package com.ofppt.chatflow.screen.main.view.chats
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -18,8 +18,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.mindorks.sample.whatsapp.data.model.Chat
-import com.mindorks.sample.whatsapp.util.ImageLoader
+import com.ofppt.chatflow.data.model.Chat
+import com.ofppt.chatflow.util.ImageLoader
 
 @Composable
 fun ChatsItemView(chat: Chat, onChatClick: (Chat) -> Unit) {

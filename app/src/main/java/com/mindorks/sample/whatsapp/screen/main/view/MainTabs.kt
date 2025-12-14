@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.screen.main.view
+package com.ofppt.chatflow.screen.main.view
 
 import androidx.compose.material.Tab
 import androidx.compose.material.TabRow
@@ -13,7 +13,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.sp
-import com.mindorks.sample.whatsapp.util.colorTopBar
+import com.ofppt.chatflow.util.colorTopBar
 
 data class ScreenState(var state: Screen = Screen.CHATS) {
 

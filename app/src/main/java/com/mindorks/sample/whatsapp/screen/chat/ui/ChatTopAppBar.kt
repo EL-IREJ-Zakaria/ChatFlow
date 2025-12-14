@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.screen.chat.ui
+package com.ofppt.chatflow.screen.chat.ui
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -19,10 +19,10 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.mindorks.sample.whatsapp.R
-import com.mindorks.sample.whatsapp.data.model.User
-import com.mindorks.sample.whatsapp.util.ImageLoader
-import com.mindorks.sample.whatsapp.util.colorTopBar
+import com.ofppt.chatflow.R
+import com.ofppt.chatflow.data.model.User
+import com.ofppt.chatflow.util.ImageLoader
+import com.ofppt.chatflow.util.colorTopBar
 
 @Composable
 fun ChatTopBar(user: User, status: String, onBackIconClick: () -> Unit) {

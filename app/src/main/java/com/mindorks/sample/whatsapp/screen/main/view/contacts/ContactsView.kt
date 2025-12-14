@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.screen.main.view.contacts
+package com.ofppt.chatflow.screen.main.view.contacts
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -19,8 +19,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.mindorks.sample.whatsapp.data.model.User
-import com.mindorks.sample.whatsapp.util.ImageLoader
+import com.ofppt.chatflow.data.model.User
+import com.ofppt.chatflow.util.ImageLoader
 
 @Composable
 fun ContactsView(

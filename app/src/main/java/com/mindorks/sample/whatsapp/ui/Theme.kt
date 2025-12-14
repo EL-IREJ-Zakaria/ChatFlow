@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.ui
+package com.ofppt.chatflow.ui
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

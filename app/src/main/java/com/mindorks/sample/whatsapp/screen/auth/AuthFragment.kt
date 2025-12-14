@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.screen.auth
+package com.ofppt.chatflow.screen.auth
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,8 +12,8 @@ import androidx.navigation.findNavController
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
-import com.mindorks.sample.whatsapp.R
-import com.mindorks.sample.whatsapp.ui.WhatsAppTheme
+import com.ofppt.chatflow.R
+import com.ofppt.chatflow.ui.WhatsAppTheme
 
 class AuthFragment : Fragment() {
 

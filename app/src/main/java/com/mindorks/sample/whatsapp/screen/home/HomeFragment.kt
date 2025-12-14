@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.screen.home
+package com.ofppt.chatflow.screen.home
 
 /*
 // Deprecated: Replaced by MainFragment and ChatsView
@@ -29,10 +29,10 @@ import androidx.compose.ui.unit.sp
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.fragment.findNavController
-import com.mindorks.sample.whatsapp.R
-import com.mindorks.sample.whatsapp.data.model.Conversation
-import com.mindorks.sample.whatsapp.util.ImageLoader
-import com.mindorks.sample.whatsapp.util.colorTopBar
+import com.ofppt.chatflow.R
+import com.ofppt.chatflow.data.model.Conversation
+import com.ofppt.chatflow.util.ImageLoader
+import com.ofppt.chatflow.util.colorTopBar
 import java.text.SimpleDateFormat
 import java.util.*
 

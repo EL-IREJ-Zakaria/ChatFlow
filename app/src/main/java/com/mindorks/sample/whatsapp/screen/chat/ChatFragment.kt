@@ -1,4 +1,4 @@
-package com.mindorks.sample.whatsapp.screen.chat
+package com.ofppt.chatflow.screen.chat
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,9 +8,9 @@ import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.ui.platform.ComposeView
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.mindorks.sample.whatsapp.data.model.User
-import com.mindorks.sample.whatsapp.screen.chat.ui.ChatScreenView
-import com.mindorks.sample.whatsapp.ui.WhatsAppTheme
+import com.ofppt.chatflow.data.model.User
+import com.ofppt.chatflow.screen.chat.ui.ChatScreenView
+import com.ofppt.chatflow.ui.WhatsAppTheme
 
 @ExperimentalFoundationApi
 class ChatFragment : Fragment() {
